@@ -201,8 +201,6 @@ class _CardType4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final colors = Theme.of(context).colorScheme;
-
     return Card(
       clipBehavior: Clip.hardEdge,  //evita que los widgets hijos se salgan del borde del padre
       elevation: elevation,
